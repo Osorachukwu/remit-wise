@@ -7,7 +7,7 @@ export default function EarnForOver() {
       {items.map((item) => (
         <div key={item.title} className="carousel-item mx-2 w-[80%] p-6 bg-gray-900">
           <div>
-            <div className="icon-shadow h-11 w-11 flex justify-center items-center rounded-full bg-gray-900 mb-5">
+            <div className="icon-shadow h-11 w-11 flex justify-center items-center rounded-full bg-gray-800 mb-5 text-gray-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -29,8 +29,8 @@ export default function EarnForOver() {
               </svg>
             </div>
             <div>
-              <p className="my-2 font-semibold">{item.title}</p>
-              <p>
+              <p className="my-2 font-semibold text-gray-400">{item.title}</p>
+              <p className="text-gray-200">
                 {item.desc}
               </p>
             </div>
