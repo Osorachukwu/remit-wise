@@ -22,7 +22,7 @@ export default function Hero() {
             <br className="md:hidden" />
             <span className="relative inline-block">
               Do More
-              <div className="w-full h-3 -mt-5 0 bg-lime-700" />
+              <div className="w-full h-3 -mt-5 md:-mt-2 0 bg-lime-600" />
             </span>
           </p>
           <div className="flex md:justify-center">
