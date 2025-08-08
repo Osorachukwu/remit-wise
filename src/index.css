@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+/* bg-gray-100
+text-gray-800
+text-gray-600 */
+html {
+  @apply scroll-smooth bg-gray-200;
+}
+.example {
+  @apply bg-pink-500 text-gray-900 text-gray-600;
+}
+.icon-shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

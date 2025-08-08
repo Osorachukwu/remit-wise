@@ -2,26 +2,26 @@ import React from "react";
 
 export default function SetUp() {
   return (
-    <div>
-      <div>
-        <p className="text-3xl">Setup in Three Easy Steps</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit
-          explicabo nostrum minus illo impedit ullam inventore qui? Ipsam,
-          incidunt.
+    <div className="bg-gray-100" id="step">
+      <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl p-4">
+        <p className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl mb-4">
+          Setup in Three Easy Steps
         </p>
-        <button className="btn">Get Started</button>
+        <p className="text-base text-gray-600 md:text-lg">
+          With Remit-wise, setting up your account is quick and easy. Follow these steps to get started:
+        </p>
+        {/* <button className="btn">Get Started</button> */}
       </div>
       {/*  */}
       {/*  */}
       {/*  */}
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+       <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
           <div className="lg:py-6 lg:pr-16">
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                  <div className="flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full">
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
@@ -49,18 +49,16 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold">Step 1</p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Step 1</p>
                 <p className="text-gray-700">
-                  All recipes are written using certain conventions, which
-                  define the characteristics of common ingredients. The rules
-                  vary from place to place.
+                 Register Create an account with us to get started. It's quick and easy.
                 </p>
               </div>
             </div>
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                  <div className="flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full">
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
@@ -88,18 +86,17 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold">Step 2</p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Step 2</p>
                 <p className="text-gray-700">
-                  The first mate and his Skipper too will do their very best to
-                  make the others comfortable in their tropic island nest.
-                  Michael Knight a young loner.
+                  Complete your registration updating your KYC information. 
+                  This helps us to verify your identity and ensure the security of your account.
                 </p>
               </div>
             </div>
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                  <div className="flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full">
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
@@ -127,56 +124,16 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold">Step 3</p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Step 3</p>
                 <p className="text-gray-700">
-                  Tell them I hate them. Is the Space Pope reptilian!? Tell her
-                  she looks thin. Hello, little man. I will destroy you!
+                  Start Transferring Funds Once your account is set up, you can start transferring funds securely and efficiently.
                 </p>
               </div>
             </div>
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
-                    <svg
-                      className="w-4 text-gray-600"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <line
-                        fill="none"
-                        strokeMiterlimit="10"
-                        x1="12"
-                        y1="2"
-                        x2="12"
-                        y2="22"
-                      />
-                      <polyline
-                        fill="none"
-                        strokeMiterlimit="10"
-                        points="19,15 12,22 5,15"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="w-px h-full bg-gray-300" />
-              </div>
-              <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold">Step 4</p>
-                <p className="text-gray-700">
-                  If one examines precultural libertarianism, one is faced with
-                  a choice: either accept rationalism or conclude that context
-                  is a product.
-                </p>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="flex flex-col items-center mr-4">
-                <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+                  <div className="flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full">
                     <svg
                       className="w-6 text-gray-600"
                       stroke="currentColor"
@@ -195,7 +152,7 @@ export default function SetUp() {
                 </div>
               </div>
               <div className="pt-1">
-                <p className="mb-2 text-lg font-bold">Success</p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Success</p>
                 <p className="text-gray-700" />
               </div>
             </div>
@@ -209,6 +166,147 @@ export default function SetUp() {
           </div>
         </div>
       </div>
+      {/* 💥💥💥 Alternative */}
+      {/* 💥💥💥 Alternative */}
+      {/* 💥💥💥 Alternative */}
+      {/* <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="absolute inset-0">
+          <div className="absolute inset-y-0 z-0 w-full h-full bg-gray-100 lg:w-3/4" />
+        </div>
+        <div className="relative">
+          <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
+            <div className="grid gap-12 row-gap-5 md:grid-cols-2">
+              <div className="relative">
+                <svg
+                  viewBox="0 0 52 24"
+                  fill="currentColor"
+                  className="absolute top-0 left-0 z-0 w-32 -mt-8 -ml-16 text-blue-gray-100 lg:w-32 lg:-mt-12"
+                >
+                  <defs>
+                    <pattern
+                      id="d06ca312-d4ed-465f-ad18-fb0c0f92b6f1"
+                      x="0"
+                      y="0"
+                      width=".135"
+                      height=".30"
+                    >
+                      <circle cx="1" cy="1" r=".7" />
+                    </pattern>
+                  </defs>
+                  <rect
+                    fill="url(#d06ca312-d4ed-465f-ad18-fb0c0f92b6f1)"
+                    width="52"
+                    height="24"
+                  />
+                </svg>
+                <div className="relative">
+                  <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                    <svg
+                      className="w-8 h-8 text-teal-900"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      />
+                    </svg>
+                  </div>
+                  <h6 className="mb-2 font-semibold leading-5">
+                    The quick, brown fox jumps over a lazy dog
+                  </h6>
+                  <p className="text-sm text-gray-900">
+                    Baseball ipsum dolor sit amet cellar rubber win hack tossed.
+                    Slugging catcher slide bench league.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                  <svg
+                    className="w-8 h-8 text-teal-900"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+                <h6 className="mb-2 font-semibold leading-5">
+                  A flower in my garden, a mystery
+                </h6>
+                <p className="text-sm text-gray-900">
+                  They urge you to put down your sword and come join the
+                  winners.
+                </p>
+              </div>
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                  <svg
+                    className="w-8 h-8 text-teal-900"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+                <h6 className="mb-2 font-semibold leading-5">
+                  Skate ipsum dolor sit amet, alley oop
+                </h6>
+                <p className="text-sm text-gray-900">
+                  If one examines precultural libertarianism, one is faced with
+                  a choice: either accept rationalism.
+                </p>
+              </div>
+              <div>
+                <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-teal-accent-400">
+                  <svg
+                    className="w-8 h-8 text-teal-900"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+                <h6 className="mb-2 font-semibold leading-5">
+                  The first mate and his Skipper too will
+                </h6>
+                <p className="text-sm text-gray-900">
+                  Those options are already baked in with this model shoot me an
+                  email clear blue water.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+                src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 }

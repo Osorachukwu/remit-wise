@@ -2,20 +2,21 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-base-300 flex justify-between">
-      <button className="btn btn-ghost text-xl">Remit-wise</button>
+    <div className="navbar bg-gray-900 flex justify-between">
+      <button className="btn btn-ghost text-xl">
+        <p>
+          <span className="text-lime-400 m-0">R</span>emitwise
+        </p>
+      </button>
       <div>
         {/* Desktop menu */}
         <div className="hidden lg:block">
-          <ul className="menu menu-vertical lg:menu-horizontal bg-base-200 rounded-box ">
+          <ul className="menu menu-vertical lg:menu-horizontal bg-gray-80 rounded-box ">
             <li>
-              <a>Item 1</a>
+              <a href="#contact">Contact</a>
             </li>
             <li>
-              <a>Item 2</a>
-            </li>
-            <li>
-              <a>Item 3</a>
+              <a href="#faq">FAQ's</a>
             </li>
           </ul>
         </div>
@@ -23,7 +24,7 @@ export default function NavBar() {
         {/* Mobile menu */}
         <div className="lg:hidden">
           <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn m-1">
+            <div tabIndex={0} role="button" className="btn bg-transparent m-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -46,13 +47,10 @@ export default function NavBar() {
               className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
             >
               <li>
-                <a>Item 1</a>
+                <a href="#contact">Contact</a>
               </li>
               <li>
-                <a>Item 2</a>
-              </li>
-              <li>
-                <a>Item 3</a>
+                <a href="#faq">FAQ's</a>
               </li>
             </ul>
           </div>

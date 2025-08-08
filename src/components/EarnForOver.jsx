@@ -1,13 +1,13 @@
 import React from "react";
 
 export default function EarnForOver() {
-  let items = [1, 2, 3, 4];
+  let items = [{title: "TSA Payment", desc: "Make payments to federal and different state governments. These include licenses fees, fines, taxes and many others."}, {title: "Utility Bills", desc: "Pay your utility bills such as electricity, water, and gas bills with ease."}, {title: "School Fees", desc: "Pay school fees for your children or wards in various institutions."}, {title: "Insurance Premiums", desc: "Pay insurance premiums for health, life, and property insurance."}];
   return (
-    <div className="carousel carousel-center bg-neutral w-full space-x-4 p-4">
-      {items.map(() => (
-        <div className="carousel-item mx-2 w-[80%] p-4 bg-gray-800">
+    <div id="earn" className="carousel carousel-center w-full space-x-4 p-4 bg-white">
+      {items.map((item) => (
+        <div key={item.title} className="carousel-item mx-2 w-[80%] p-6 bg-gray-900">
           <div>
-            <div className="h-10 w-10 flex justify-center items-center rounded-full bg-gray-900 mb-2">
+            <div className="icon-shadow h-11 w-11 flex justify-center items-center rounded-full bg-gray-900 mb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -29,12 +29,9 @@ export default function EarnForOver() {
               </svg>
             </div>
             <div>
-              <p className="mb-2">TSA Payment</p>
+              <p className="my-2 font-semibold">{item.title}</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-                deleniti sed a? Reiciendis illo minima aliquam voluptatibus
-                omnis eligendi ratione quae nostrum vero, sapiente enim
-                voluptatum sit inventore quibusdam iure!
+                {item.desc}
               </p>
             </div>
           </div>

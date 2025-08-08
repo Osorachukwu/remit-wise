@@ -2,39 +2,114 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section class="bg-white dark:bg-gray-900">
-      <div class=" mx-auto max-w-screen-xl">
-        <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-8 md:p-12 mb-8">
+    <div className="relative bg-gray-900">
+      <div className="absolute inset-x-0 bottom-0">
+        <svg
+          viewBox="0 0 224 12"
+          fill="currentColor"
+          className="w-full -mb-1 text-white"
+          preserveAspectRatio="none"
+        >
+          <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
+        </svg>
+      </div>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+          <p className="mb-6 font-sans font-bold tracking-tight text-gray-100 text-5xl leading-16 sm:leading-none md:mb-10">
+            Upgrade
+            <br className="md:hidden" />
+            your Hustle &
+            <br className="md:hidden" />
+            <span className="relative inline-block">
+              Do More
+              <div className="w-full h-3 -mt-5 0 bg-lime-700" />
+            </span>
+          </p>
+          <div className="flex md:justify-center">
+            <div className="mr-2 text-lime-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-badge-check-icon lucide-badge-check"
+              >
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+            </div>
+            <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
+              Fast, Secure, and Reliable Money Transfer.
+            </p>
+          </div>
+          <div className="flex md:justify-center">
+            <div className="mr-2 text-lime-300">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-badge-check-icon lucide-badge-check"
+              >
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+            </div>
+            <p className="text-base font-thin tracking-wide text-gray-300 md:text-lg">
+              Send money to your loved ones anywhere in the world.
+            </p>
+          </div>
+
           <a
-            href="#"
-            class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2"
+            href="#earn"
+            aria-label="Scroll down"
+            className="flex items-center justify-center mt-20 w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
           >
             <svg
-              class="w-2.5 h-2.5 me-1.5"
-              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
               fill="currentColor"
-              viewBox="0 0 20 14"
             >
-              <path d="M11 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm8.585 1.189a.994.994 0 0 0-.9-.138l-2.965.983a1 1 0 0 0-.685.949v8a1 1 0 0 0 .675.946l2.965 1.02a1.013 1.013 0 0 0 1.032-.242A1 1 0 0 0 20 12V2a1 1 0 0 0-.415-.811Z" />
+              <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
             </svg>
-            Tutorial
           </a>
-          <h1 class="text-gray-900 dark:text-white text-5xl  leading-16 font-extrabold mb-4">
+        </div>
+      </div>
+    </div>
+  );
+}
+{
+  /* <div className="bg-color-main mx-auto max-w-screen-xl">
+        <div className="border border-gray-200 p-8 md:p-12 mb-8">
+         
+           
+          <h1 className="text-gray-900 text-5xl leading-16 font-extrabold mb-4">
             Upgrade your Hustle & Do More
           </h1>
-          <p class="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
+          <p className="text-lg font-normal text-gray-600 mb-6">
             Static websites are now used to bootstrap lots of websites and are
             becoming the basis for a variety of tools that even influence both
             web designers and developers.
           </p>
           <a
             href="#"
-            class="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            className="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 "
           >
             Read more
             <svg
-              class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+              className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -50,7 +125,5 @@ export default function Hero() {
             </svg>
           </a>
         </div>
-      </div>
-    </section>
-  );
+      </div> */
 }
