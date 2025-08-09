@@ -2,8 +2,8 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="navbar bg-gray-900 flex justify-between">
-      <button className="btn btn-ghost text-xl md:text-2xl text-gray-200">
+    <div className="navbar bg-white flex justify-between">
+      <button className="btn btn-ghost text-xl md:text-2xl text-gray-900">
         <p>
           <span className="text-lime-400 font-semibold m-0">R</span>emitwise
         </p>
@@ -24,7 +24,7 @@ export default function NavBar() {
         {/* Mobile menu */}
         <div className="lg:hidden">
           <div className="dropdown dropdown-end">
-            <div tabIndex={0} role="button" className="btn bg-transparent m-1 text-gray-200">
+            <div tabIndex={0} role="button" className="btn bg-transparent m-1 text-gray-900">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

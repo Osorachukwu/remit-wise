@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="relative bg-gray-900">
+    <div className="relative bg-white">
       <div className="absolute inset-x-0 bottom-0">
         <svg
           viewBox="0 0 224 12"
           fill="currentColor"
-          className="w-full -mb-1 text-white"
+          className="w-full -mb-1 text-gray-800"
           preserveAspectRatio="none"
         >
           <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
@@ -15,18 +15,18 @@ export default function Hero() {
       </div>
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-          <p className="mb-6 font-sans font-bold tracking-tight text-gray-100 text-5xl leading-16 sm:leading-none md:mb-10">
-            Upgrade
+          <p className="mb-6 font-sans font-bold tracking-tight text-gray-800 text-5xl leading-16 sm:leading-none md:mb-10">
+            Connecting Trusted Remittance
             <br className="md:hidden" />
-            your Hustle &
+            Agents with Global
             <br className="md:hidden" />
-            <span className="relative inline-block">
-              Do More
-              <div className="w-full h-3 -mt-5 md:-mt-2 0 bg-lime-600" />
+            <span className="relative inline-block text-lime-500">
+              Opportunities
+              {/* <div className="w-full h-3 -mt-5 md:-mt-2 0 bg-lime-600" /> */}
             </span>
           </p>
           <div className="flex md:justify-center">
-            <div className="mr-2 text-lime-300">
+            <div className="mr-2 text-lime-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -43,13 +43,13 @@ export default function Hero() {
                 <path d="m9 12 2 2 4-4" />
               </svg>
             </div>
-            <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
+            <p className="mb-6 text-base font-medium tracking-wide text-gray-950 md:text-lg">
               {/* Fast, Secure, and Reliable Money Transfer. */}
               Trusted jobs. Verified employers. Secure payments.
             </p>
           </div>
           <div className="flex md:justify-center">
-            <div className="mr-2 text-lime-300">
+            <div className="mr-2 text-lime-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -66,7 +66,7 @@ export default function Hero() {
                 <path d="m9 12 2 2 4-4" />
               </svg>
             </div>
-            <p className="text-base font-thin tracking-wide text-gray-300 md:text-lg">
+            <p className="text-base font-medium tracking-wide text-gray-950 md:text-lg">
               Connecting Remittance Agents with Global Opportunities.
             </p>
           </div>
@@ -74,7 +74,7 @@ export default function Hero() {
           <a
             href="#earn"
             aria-label="Scroll down"
-            className="flex items-center justify-center mt-20 w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+            className="flex items-center justify-center mt-20 w-10 h-10 mx-auto text-gray-900 duration-300 transform border border-gray-900 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,156 +1,88 @@
 import React from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 export default function Testimonials() {
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  let testimonials = [
+    {
+      avatar:
+        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png",
+      name: "Bonnie Green",
+      testimonial:
+        "Joining this platform completely changed my career path. I now work as a remittance agent full-time, helping clients send and receive money safely every day. The job support and resources here are unmatched.",
+      location: "New York, USA",
+    },
+    {
+      avatar:
+        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png",
+      name: "Roberta Casas",
+      testimonial:
+        "I started part-time while still in school, and within months I was earning enough to cover my tuition. The system is secure, and customers trust me because of the platform’s reputation.",
+      location: "Los Angeles, USA",
+    },
+    {
+      avatar:
+        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+      name: "Jese Leos",
+      testimonial:
+        "As a remittance agent, I get the satisfaction of helping families stay connected through fast and reliable money transfers. The platform’s training gave me the confidence to start my own small agency.",
+      location: "Chicago, USA",
+    },
+    {
+      avatar:
+        "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png",
+      name: "Karen Nelson",
+      testimonial:
+        " Before joining, I struggled to find flexible work. Now, I can choose my working hours, serve my community, and grow my income steadily. What I love most is the transparency — no hidden charges, no delays.",
+      location: "Houston, USA",
+    },
+  ];
+  //
   return (
-    <section className="bg-white dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div className="mx-auto max-w-screen-sm">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Testimonials
-          </h2>
-          <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-            Explore the whole collection of open-source web components and
-            elements built with the utility classes from Tailwind
-          </p>
-        </div>
-        <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Speechless with how easy this was to integrate
-              </h3>
-              <p className="my-4">
-                "I recently got my hands on Flowbite Pro, and holy crap, I'm
-                speechless with how easy this was to integrate within my
-                application. Most templates are a pain, code is scattered, and
-                near impossible to theme.
-              </p>
-              <p className="my-4">
-                Flowbite has code in one place and I'm not joking when I say it
-                took me a matter of minutes to copy the code, customise it and
-                integrate within a Laravel + Vue application.
-              </p>
-              <p className="my-4">
-                If you care for your time, I hands down would go with this."
-              </p>
-            </blockquote>
-            <figcaption className="flex justify-center items-center space-x-3">
-              <img
-                className="w-9 h-9 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left">
-                <div>Bonnie Green</div>
-                <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                  Developer at Open AI
-                </div>
-              </div>
-            </figcaption>
-          </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Solid foundation for any project
-              </h3>
-              <p className="my-4">
-                "FlowBite provides a robust set of design tokens and components
-                based on the popular Tailwind CSS framework. From the most used
-                UI components like forms and navigation bars to the whole app
-                screens designed both for desktop and mobile, this UI kit
-                provides a solid foundation for any project.
-              </p>
-              <p className="my-4">
-                Designing with Figma components that can be easily translated to
-                the utility classes of Tailwind CSS is a huge timesaver!"
-              </p>
-            </blockquote>
-            <figcaption className="flex justify-center items-center space-x-3">
-              <img
-                className="w-9 h-9 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left">
-                <div>Roberta Casas</div>
-                <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                  Lead designer at Dropbox
-                </div>
-              </div>
-            </figcaption>
-          </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Mindblowing workflow and variants
-              </h3>
-              <p className="my-4">
-                "As someone who mainly designs in the browser, I've been a
-                casual user of Figma, but as soon as I saw and started playing
-                with FlowBite my mind was 🤯.
-              </p>
-              <p className="my-4">
-                Everything is so well structured and simple to use (I've learnt
-                so much about Figma by just using the toolkit).
-              </p>
-              <p className="my-4">
-                Aesthetically, the well designed components are beautiful and
-                will undoubtedly level up your next application."
-              </p>
-            </blockquote>
-            <figcaption className="flex justify-center items-center space-x-3">
-              <img
-                className="w-9 h-9 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left">
-                <div>Jese Leos</div>
-                <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                  Software Engineer at Facebook
-                </div>
-              </div>
-            </figcaption>
-          </figure>
-          <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-            <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Efficient Collaborating
-              </h3>
-              <p className="my-4">
-                "This is a very complex and beautiful set of elements. Under the
-                hood it comes with the best things from 2 different worlds:
-                Figma and Tailwind.
-              </p>
-              <p className="my-4">
-                You have many examples that can be used to create a fast
-                prototype for your team."
-              </p>
-            </blockquote>
-            <figcaption className="flex justify-center items-center space-x-3">
-              <img
-                className="w-9 h-9 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
-                alt="profile picture"
-              />
-              <div className="space-y-0.5 font-medium dark:text-white text-left">
-                <div>Joseph McFall</div>
-                <div className="text-sm font-light text-gray-500 dark:text-gray-400">
-                  CTO at Google
-                </div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        {/* <div className="text-center">
-          <a
-            href="#"
-            className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-          >
-            Show more...
-          </a>
-        </div> */}
+    <div className="bgred-red-100 py-12">
+      <div className="mx-auto max-w-screen-sm text-center">
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
+          Testimonials
+        </h2>
+        <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl ">
+          Explore the whole collection of open-source web components and
+          elements built with the utility classes from Tailwind
+        </p>
       </div>
-    </section>
+
+      <div className="embla max-w-2xl mx-auto" ref={emblaRef}>
+        <div className="embla__container">
+          {testimonials.map((testimonial) => (
+            <div
+              key={testimonial.name}
+              className="embla__slide border testimonial-shadow"
+            >
+              <figure className="flex flex-col justify-center items-center p-8 text-center bg-white h-full border-b border-gray-200 md:p-12 lg:border-r ">
+                <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
+                  {/* <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Speechless with how easy this was to integrate
+                </h3> */}
+                  <p className="my-4 italic">{testimonial.testimonial}</p>
+                </blockquote>
+                <figcaption className="flex justify-center items-center space-x-3">
+                  <img
+                    className="w-12 h-12 rounded-full"
+                    src={testimonial.avatar}
+                    alt="profile picture"
+                  />
+                  <div className="space-y-0.5 font-medium text-gray-900 text-left">
+                    <div>{testimonial.name}</div>
+                    <div className="text-sm font-light text-gray-500 ">
+                      {testimonial.location}
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }

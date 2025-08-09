@@ -17,34 +17,42 @@ export default function FAQ() {
             What is Remit-Wise?
           </div>
           <div className="collapse-content text-sm border-t border-gray-400 pt-4">
-           Remit-Wise is a global money transfer service that allows individuals and businesses to send and receive funds quickly, securely, and affordably.
+            Remit-Wise is a global money transfer service that allows
+            individuals and businesses to send and receive funds quickly,
+            securely, and affordably.
           </div>
         </div>
         <div className="collapse collapse-plus bg-gray-300 border border-gray-400 text-gray-800">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title font-semibold">
-            Is there a limit to how much money I can send?
+            How do agents earn money??
           </div>
           <div className="collapse-content text-sm border-t border-gray-400 pt-4">
-            For security and compliance reasons, there are transaction limits. These limits may increase as you provide additional verification and upgrade your account's KYC (Know Your Customer) level.
+            Agents earn a commission for every successful money transfer they
+            process. The more transactions you handle, the higher your earnings.
+            You can also grow your client base to increase your monthly income.
           </div>
         </div>
         <div className="collapse collapse-plus bg-gray-300 border border-gray-400 text-gray-800">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title font-semibold">
-            What information do I need from the recipient?
+            Can I work as a remittance agent part-time? Yes.
           </div>
           <div className="collapse-content text-sm border-t border-gray-400 pt-4">
-            You will generally need their full name, address, bank name, account number, and the bank's unique identifier (e.g., SWIFT/BIC code for international transfers or a routing number for domestic transfers). Some countries may require an IBAN or other specific codes.
+            You can choose your working hours and process transactions whenever
+            it’s convenient for you. Many of our agents work part-time while
+            managing other commitments.
           </div>
         </div>
         <div className="collapse collapse-plus bg-gray-300 border border-gray-400 text-gray-800">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title font-semibold">
-            What are the fees and exchange rates?
+            Is training provided for new agents?
           </div>
           <div className="collapse-content text-sm border-t border-gray-400 pt-4">
-            Fees and exchange rates are a critical part of the service. We offer transparent pricing, with fees that vary depending on the amount, destination, and transfer method. Our exchange rates are competitive and are displayed before you confirm your transaction.
+            Yes. Once you’re approved, you’ll receive access to training
+            materials, step-by-step guides, and ongoing support to help you
+            provide secure, efficient remittance services.
           </div>
         </div>
       </div>

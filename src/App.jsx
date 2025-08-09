@@ -9,6 +9,7 @@ import WeHelpIndividuals from './components/WeHelpIndividuals'
 import MakingPaymentSimple from './components/MakingPaymentSimple'
 import Testimonials from './components/Testimonials'
 import AboutUs from './components/AboutUs'
+import Example from './components/Example'
 
 export default function App() {
   return (
@@ -16,9 +17,10 @@ export default function App() {
       <NavBar />
       <Hero />
       <AboutUs />
-      <EarnForOver />
+      {/* <EarnForOver /> */}
       <SetUp />
       <Testimonials />
+      {/* <Example /> */}
       {/* <WeHelpIndividuals /> */}
       <FAQ />
       <MakingPaymentSimple />
