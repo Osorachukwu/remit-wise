@@ -7,15 +7,19 @@ import EarnForOver from './components/EarnForOver'
 import SetUp from './components/SetUp'
 import WeHelpIndividuals from './components/WeHelpIndividuals'
 import MakingPaymentSimple from './components/MakingPaymentSimple'
+import Testimonials from './components/Testimonials'
+import AboutUs from './components/AboutUs'
 
 export default function App() {
   return (
     <div className=''>
       <NavBar />
       <Hero />
+      <AboutUs />
       <EarnForOver />
       <SetUp />
-      <WeHelpIndividuals />
+      <Testimonials />
+      {/* <WeHelpIndividuals /> */}
       <FAQ />
       <MakingPaymentSimple />
       <Footer />

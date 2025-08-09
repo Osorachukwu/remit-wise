@@ -5,17 +5,18 @@ export default function SetUp() {
     <div className="bg-gray-100" id="step">
       <div className="max-w-xl mb-5 md:mx-auto sm:text-center lg:max-w-2xl p-4">
         <p className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-gray-900 transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl mb-4">
-          Setup in Three Easy Steps
+          Featured Job Listings
+          {/* Setup in Three Easy Steps */}
         </p>
-        <p className="text-base text-gray-600 md:text-lg">
+        {/* <p className="text-base text-gray-600 md:text-lg">
           With Remit-wise, setting up your account is quick and easy. Follow these steps to get started:
-        </p>
+        </p> */}
         {/* <button className="btn">Get Started</button> */}
       </div>
       {/*  */}
       {/*  */}
       {/*  */}
-       <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
           <div className="lg:py-6 lg:pr-16">
             <div className="flex">
@@ -49,10 +50,11 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold text-gray-800">Step 1</p>
-                <p className="text-gray-700">
-                 Register Create an account with us to get started. It's quick and easy.
-                </p>
+                <p className="mb-2 text-lg font-bold text-gray-800"> Remittance Teller – Lagos, Nigeria (Full-time, Licensed Agent
+                  Required).</p>
+                {/* <p className="text-gray-700">
+                  Complete your registration updating your KYC information. This helps us to verify your identity and ensure the security of your account.
+                </p> */}
               </div>
             </div>
             <div className="flex">
@@ -86,11 +88,11 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold text-gray-800">Step 2</p>
-                <p className="text-gray-700">
+                <p className="mb-2 text-lg font-bold text-gray-800"> Customer Service Remittance Agent – Dubai, UAE (Visa Provided)</p>
+                {/* <p className="text-gray-700">
                   Complete your registration updating your KYC information. 
                   This helps us to verify your identity and ensure the security of your account.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex">
@@ -124,13 +126,15 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold text-gray-800">Step 3</p>
-                <p className="text-gray-700">
-                  Start Transferring Funds Once your account is set up, you can start transferring funds securely and efficiently.
-                </p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Mobile Money Agent – Nairobi, Kenya (Commission-Based).</p>
+                {/* <p className="text-gray-700">
+                
+                  Once your KYC is verified, you can start using our platform to find job opportunities and connect with employers.
+
+                </p> */}
               </div>
             </div>
-            <div className="flex">
+            {/* <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
                   <div className="flex items-center justify-center w-10 h-10 border border-gray-300 rounded-full">
@@ -155,15 +159,15 @@ export default function SetUp() {
                 <p className="mb-2 text-lg font-bold text-gray-800">Success</p>
                 <p className="text-gray-700" />
               </div>
-            </div>
+            </div> */}
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <img
               className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
               src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </div>
       {/* 💥💥💥 Alternative */}

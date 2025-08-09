@@ -3,7 +3,7 @@ import React from "react";
 export default function EarnForOver() {
   let items = [{title: "TSA Payment", desc: "Make payments to federal and different state governments. These include licenses fees, fines, taxes and many others."}, {title: "Utility Bills", desc: "Pay your utility bills such as electricity, water, and gas bills with ease."}, {title: "School Fees", desc: "Pay school fees for your children or wards in various institutions."}, {title: "Insurance Premiums", desc: "Pay insurance premiums for health, life, and property insurance."}];
   return (
-    <div id="earn" className="carousel carousel-center w-full space-x-4 p-4 bg-white">
+    <div id="earn" className="carousel carousel-center w-full p-2 bg-white">
       {items.map((item) => (
         <div key={item.title} className="carousel-item mx-2 w-[80%] p-6 bg-gray-900">
           <div>

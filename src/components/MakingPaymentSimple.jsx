@@ -14,11 +14,12 @@ export default function MakingPaymentSimple() {
               aria-label="Article"
               className="inline-block max-w-lg font-sans text-3xl font-extrabold leading-none tracking-tight text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-700 sm:text-4xl"
             >
-              Making Payments Simple and Accessible
+              {/* Making Payments Simple and Accessible */}
+              Ready to Start Your Career or Hire an Agent?
             </a>
           </div>
           <p className="text-base text-gray-100 md:text-lg">
-            Everthing you need to access online Payment. Pay more
+           Join Us Now – It’s Free and Only Takes 3 Minutes.
           </p>
         </div>
       </div>

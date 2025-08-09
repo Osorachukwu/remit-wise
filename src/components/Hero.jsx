@@ -44,7 +44,8 @@ export default function Hero() {
               </svg>
             </div>
             <p className="mb-6 text-base font-thin tracking-wide text-gray-300 md:text-lg">
-              Fast, Secure, and Reliable Money Transfer.
+              {/* Fast, Secure, and Reliable Money Transfer. */}
+              Trusted jobs. Verified employers. Secure payments.
             </p>
           </div>
           <div className="flex md:justify-center">
@@ -66,7 +67,7 @@ export default function Hero() {
               </svg>
             </div>
             <p className="text-base font-thin tracking-wide text-gray-300 md:text-lg">
-              Send money to your loved ones anywhere in the world.
+              Connecting Remittance Agents with Global Opportunities.
             </p>
           </div>
 
