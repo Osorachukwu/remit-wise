@@ -42,7 +42,7 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold text-gray-800"> Remittance Teller – Lagos, Nigeria (Full-time, Licensed Agent
+                <p className="mb-2 text-lg font-bold text-gray-800"> Remittance Teller – Houston, USA (Full-time, Licensed Agent
                   Required).</p>
                 {/* <p className="text-gray-700">
                   Complete your registration updating your KYC information. This helps us to verify your identity and ensure the security of your account.
@@ -102,7 +102,7 @@ export default function SetUp() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <p className="mb-2 text-lg font-bold text-gray-800">Mobile Money Agent – Nairobi, Kenya (Commission-Based).</p>
+                <p className="mb-2 text-lg font-bold text-gray-800">Mobile Money Agent – Los Angeles, USA (Commission-Based).</p>
                 {/* <p className="text-gray-700">
                 
                   Once your KYC is verified, you can start using our platform to find job opportunities and connect with employers.

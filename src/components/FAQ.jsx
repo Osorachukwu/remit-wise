@@ -4,9 +4,9 @@ export default function FAQ() {
   return (
     <div className="bg-gray-100 py-10" id="faq">
       <div className="md:text-center p-4">
-        <p className=" text-gray-800">FAQ's</p>
+        <p className=" text-lime-500 font-medium">FAQ's</p>
         <p className="text-3xl text-gray-800 mb-5">
-          Get to know more about Remit-wise
+          Get to know more about Remitwise
         </p>
       </div>
       {/*  */}

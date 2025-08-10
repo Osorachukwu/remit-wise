@@ -10,12 +10,14 @@ import MakingPaymentSimple from './components/MakingPaymentSimple'
 import Testimonials from './components/Testimonials'
 import AboutUs from './components/AboutUs'
 import Example from './components/Example'
+import AltHero from './components/AltHero'
 
 export default function App() {
   return (
     <div className=''>
       <NavBar />
-      <Hero />
+      {/* <Hero /> */}
+      <AltHero />
       <AboutUs />
       {/* <EarnForOver /> */}
       <SetUp />

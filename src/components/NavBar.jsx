@@ -3,14 +3,14 @@ import React from "react";
 export default function NavBar() {
   return (
     <div className="navbar bg-white flex justify-between">
-      <button className="btn btn-ghost text-xl md:text-2xl text-gray-900">
+      <button className="btn btn-ghost hover:bg-white text-xl md:text-2xl text-gray-900">
         <p>
           <span className="text-lime-400 font-semibold m-0">R</span>emitwise
         </p>
       </button>
       <div>
         {/* Desktop menu */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block text-gray-900">
           <ul className="menu menu-vertical lg:menu-horizontal bg-gray-80 rounded-box ">
             <li>
               <a href="#contact">Contact</a>
