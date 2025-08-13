@@ -11,6 +11,7 @@ import Testimonials from './components/Testimonials'
 import AboutUs from './components/AboutUs'
 import Example from './components/Example'
 import AltHero from './components/AltHero'
+import { Team } from './components/Team'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <AboutUs />
       {/* <EarnForOver /> */}
       <SetUp />
+      <Team />
       <Testimonials />
       {/* <Example /> */}
       {/* <WeHelpIndividuals /> */}

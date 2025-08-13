@@ -14,13 +14,13 @@ export default function AltHero() {
           <div className="embla__container">
             <div className="embla__slide">
               {" "}
-              <img src={img1} alt="" className="object-contain h-ful" />{" "}
+              <img src={img1} alt="" className="object-contai h-full" />{" "}
             </div>
             <div className="embla__slide">
-              <img src={img2} alt="" className="object-fill h-ful" />
+              <img src={img2} alt="" className="object-fil h-full" />
             </div>
             <div className="embla__slide">
-              <img src={img3} alt="" className="object-contain h-ful" />
+              <img src={img3} alt="" className="object-contai h-full" />
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function AltHero() {
         <div className="absolute inset-0 bg-black opacity-65 h-full w-full"></div>
       </div>
       {/*  */}
-      <div className="absolute md:ml-20 flex flex-col justify-center max-w-[24rem] md:max-w-[28rem] md:pl-5 border-l-4 border-lime-500 h-full">
+      <div className="absolute md:ml-20 flex flex-col justify-center max-w-[24rem] md:max-w-[28rem] px-4 md:pl-5 md:border-l-4 border-lime-500 h-full">
         <p className="mb-10 font-sans font-bold tracking-tight text-white text-5xl leading-16 md:mb-10 ">
           Connecting Trusted Remittance
           <br className="md:hidden" />
