@@ -1,13 +1,15 @@
 import React from "react";
+import logo from "../assets/logo-rmbg.png"
 
 export default function NavBar() {
   return (
     <div className="navbar bg-white flex justify-between">
-      <button className="btn btn-ghost hover:bg-white text-xl md:text-2xl text-gray-900">
-        <p>
+      <div className="hover:bg-white text-xl md:text-2xl text-gray-900 ml-10">
+        {/* <p>
           <span className="text-lime-400 font-semibold m-0">R</span>emitwise
-        </p>
-      </button>
+        </p> */}
+        <img src={logo} alt="Remitwise Logo" className="w-20 h-20" />
+      </div>
       <div>
         {/* Desktop menu */}
         <div className="hidden lg:block text-gray-900">

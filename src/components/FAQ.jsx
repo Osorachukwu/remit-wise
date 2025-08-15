@@ -10,7 +10,7 @@ export default function FAQ() {
         </p>
       </div>
       {/*  */}
-      <div className="px-4 space-y-1 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div className="px-4 space-y-1 mx-auto sm:max-w-xl md:max-w-4xl ">
         <div className="collapse collapse-plus bg-gray-300 border border-gray-400 text-gray-800">
           <input type="radio" name="my-accordion-3" defaultChecked />
           <div className="collapse-title font-semibold">

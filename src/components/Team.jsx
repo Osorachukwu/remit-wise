@@ -1,4 +1,8 @@
 import React from "react";
+import person1 from "../assets/person-1.jpg";
+import person2 from "../assets/person-2.jpg";
+import person3 from "../assets/person-3.jpg";
+import person4 from "../assets/person4.jpg";
 
 export const Team = () => {
   return (
@@ -37,64 +41,59 @@ export const Team = () => {
           </span>{" "}
           our talented team of professionals
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        {/* <p className="text-base text-gray-700 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
-        </p>
+        </p> */}
       </div>
-      <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-              alt="Person"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold text-gray-600">Oliver Aguilerra</p>
-            <p className="mb-5 text-xs text-gray-800">Product Manager</p>
-          </div>
-        </div>
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt="Person"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold text-gray-600">Marta Clermont</p>
-            <p className="mb-5 text-xs text-gray-800">Design Team Lead</p>
+      <div className="grid gap-6 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+          <img
+            className="w-full h-64 object-cover"
+            src={person2}
+            alt="Team member"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-gray-800">
+              David Matthew
+            </h3>
+            <p className="text-gray-500 text-sm">CEO</p>
           </div>
         </div>
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt="Person"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold text-gray-600">Alice Melbourne</p>
-            <p className="mb-5 text-xs text-gray-800">Human Resources</p>
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+          <img
+            className="w-full h-64 object-cover"
+            src={person3}
+            alt="Team member"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-gray-800">Noah Oliver</h3>
+            <p className="text-gray-500 text-sm">CFO</p>
           </div>
         </div>
-        <div>
-          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-            <img
-              className="absolute object-cover w-full h-full rounded"
-              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              alt="Person"
-            />
-          </div>
-          <div className="flex flex-col sm:text-center">
-            <p className="text-lg font-bold text-gray-600">John Doe</p>
-            <p className="mb-5 text-xs text-gray-800">Good guy</p>
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+          <img
+            className="w-full h-64 object-cover"
+            src={person1}
+            alt="Team member"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-gray-800"> Liam Alexander</h3>
+            <p className="text-gray-500 text-sm">Customer care</p>
           </div>
         </div>
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+          <img
+            className="w-full h-64 object-cover"
+            src={person4}
+            alt="Team member"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-gray-800">Kat Fernsby</h3>
+            <p className="text-gray-500 text-sm">Social Manager</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
