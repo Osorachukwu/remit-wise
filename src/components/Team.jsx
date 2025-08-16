@@ -38,7 +38,7 @@ export const Team = () => {
               />
             </svg>
             <span className="relative">Welcome</span>
-          </span>{" "}
+          </span>
           our talented team of professionals
         </h2>
         {/* <p className="text-base text-gray-700 md:text-lg">
@@ -47,9 +47,9 @@ export const Team = () => {
         </p> */}
       </div>
       <div className="grid gap-6 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
-        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden border-4 border-black">
           <img
-            className="w-full h-64 object-cover"
+            className="w-full lg:h-64 object-covr"
             src={person2}
             alt="Team member"
           />
@@ -62,7 +62,7 @@ export const Team = () => {
         </div>
         <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
-            className="w-full h-64 object-cover"
+            className="w-full lg:h-64 object-cover"
             src={person3}
             alt="Team member"
           />
@@ -73,7 +73,7 @@ export const Team = () => {
         </div>
         <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
-            className="w-full h-64 object-cover"
+            className="w-full lg:h-64 object-cover"
             src={person1}
             alt="Team member"
           />
@@ -84,7 +84,7 @@ export const Team = () => {
         </div>
         <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
-            className="w-full h-64 object-cover"
+            className="w-full lg:h-64 object-cover"
             src={person4}
             alt="Team member"
           />
