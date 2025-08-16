@@ -23,14 +23,6 @@ export default function MakingPaymentSimple() {
           </p>
         </div>
       </div>
-      {/*  */}
-      <div className="bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto w-full">
-        <h2 className="text-xl font-semibold text-gray-800 mb-6 text-center sm:text-left">
-          Contact Us
-        </h2>
-
-       
-      </div>
     </div>
   );
 }

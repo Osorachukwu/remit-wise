@@ -25,7 +25,7 @@ export default function AltHero() {
           </div>
         </div>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black opacity-65 h-full w-full"></div>
+        <div className="absolute inset-0 bg-black opacity-40 h-full w-full"></div>
       </div>
       {/*  */}
       <div className="absolute md:ml-20 flex flex-col justify-center max-w-[24rem] md:max-w-[28rem] px-4 md:pl-5 md:border-l-4 border-lime-500 h-full">

@@ -13,10 +13,12 @@ import Example from './components/Example'
 import AltHero from './components/AltHero'
 import { Team } from './components/Team'
 import ContactUs from './components/ContactUs'
+import OpeningTime from './components/OpeningTime'
 
 export default function App() {
   return (
     <div className=''>
+      <OpeningTime />
       <NavBar />
       {/* <Hero /> */}
       <AltHero />

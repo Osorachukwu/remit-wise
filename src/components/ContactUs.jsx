@@ -2,13 +2,13 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div className="bg-whit rounded-xl shadow-lg p-6 w-full mx-auto">
+    <div className="bg-whit rounded-xl shadow-lg p-6 w-full mx-auto" id="contact">
       <h2 className="text-2xl font-semibold text-gray-800 text-center mb-16">
         Get In Touch With Us
       </h2>
 
       {/* Contact Info */}
-      <div className="grid gap-10  sm:grid-cols-2 md:grid-cols-3 max-w-5xl mx-auto">
+      <div className="grid gap-5 md:gap-10  sm:grid-cols-2 md:grid-cols-3 max-w-5xl mx-auto">
         {/* Phone */}
         <div className="flex flex-col items-center sm:gap-3 rounded-lg bg-blue-100 py-10">
           <div className="text-blue-600 p-3 rounded-full self-center">
