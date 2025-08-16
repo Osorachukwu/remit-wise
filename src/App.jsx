@@ -12,6 +12,7 @@ import AboutUs from './components/AboutUs'
 import Example from './components/Example'
 import AltHero from './components/AltHero'
 import { Team } from './components/Team'
+import ContactUs from './components/ContactUs'
 
 export default function App() {
   return (
@@ -27,7 +28,9 @@ export default function App() {
       {/* <Example /> */}
       {/* <WeHelpIndividuals /> */}
       <FAQ />
+      <ContactUs />
       <MakingPaymentSimple />
+
       <Footer />
     </div>
   )

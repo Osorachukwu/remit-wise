@@ -47,7 +47,7 @@ export const Team = () => {
         </p> */}
       </div>
       <div className="grid gap-6 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
-        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden border-4 border-black">
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
             className="w-full lg:h-64 object-covr"
             src={person2}
