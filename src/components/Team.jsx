@@ -49,6 +49,17 @@ export const Team = () => {
       <div className="grid gap-6 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
         <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
+            className="w-full lg:h-64 object-cover"
+            src={person3}
+            alt="Team member"
+          />
+          <div className="p-4">
+            <h3 className="text-lg font-semibold text-gray-800">Noah Oliver</h3>
+            <p className="text-gray-500 text-sm">CEO</p>
+          </div>
+        </div>
+        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
+          <img
             className="w-full lg:h-64 object-covr"
             src={person2}
             alt="Team member"
@@ -57,20 +68,10 @@ export const Team = () => {
             <h3 className="text-lg font-semibold text-gray-800">
               David Matthew
             </h3>
-            <p className="text-gray-500 text-sm">CEO</p>
-          </div>
-        </div>
-        <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
-          <img
-            className="w-full lg:h-64 object-cover"
-            src={person3}
-            alt="Team member"
-          />
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-gray-800">Noah Oliver</h3>
             <p className="text-gray-500 text-sm">CFO</p>
           </div>
         </div>
+
         <div className="max-w-2xl bg-white rounded-xl shadow-lg overflow-hidden">
           <img
             className="w-full lg:h-64 object-cover"
@@ -78,7 +79,9 @@ export const Team = () => {
             alt="Team member"
           />
           <div className="p-4">
-            <h3 className="text-lg font-semibold text-gray-800"> Liam Alexander</h3>
+            <h3 className="text-lg font-semibold text-gray-800">
+               Liam Alexander
+            </h3>
             <p className="text-gray-500 text-sm">Customer care</p>
           </div>
         </div>
@@ -93,7 +96,6 @@ export const Team = () => {
             <p className="text-gray-500 text-sm">Social Manager</p>
           </div>
         </div>
-        
       </div>
     </div>
   );
